@@ -9,7 +9,6 @@ def load_dset(path):
   return rst
 
 def plot_radar_chart(data, artist_name, target_cols1):
-  # 데이터 가져오기
   values = data.loc[artist_name, target_cols1].values
   categories = target_cols1
   num_vars = len(categories)
